@@ -49,12 +49,14 @@ li{
     background-color: rgba(0,0,transparent,0.4);
     padding: 5px;
     cursor: pointer;
+    
 }
 .About ul li:hover{
     transform: scale(1.05);
     transition: 0.2s ease-out;
     border-radius: 10px;
     background-color: rgba(149, 149, 243, 0.4);
+    
 }
 .hero_sec{
     padding:50px;
@@ -132,7 +134,7 @@ li{
 }
 .login_sec{
     background-color: white;
-    height:500px;
+    height:450px;
     width:400px;
     border: 2px black rgb(3, 9, 19);
     border-radius: 8px;
@@ -306,7 +308,7 @@ pre{
 }
 .test_right{
     height: 600px;
-    width:900px;
+    width:1000px;
     background-color: rgb(224, 228, 226);
     display: flex;
     flex-direction:column;
@@ -315,7 +317,7 @@ pre{
     padding-top: 50px;
 }
 .test_right_container{
-    height: 100vh;
+    height: 70vh;
     display: flex;
     justify-content:baseline;
 }
